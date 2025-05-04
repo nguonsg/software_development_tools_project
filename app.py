@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.header("Car Advertisement Data Dashboard")
 
-df = pd.read_csv("/Users/sunheng/Documents/GitHub/software_development_tools_project/vehicles_us.csv")
+df = pd.read_csv("vehicles_us.csv")
 
 if st.checkbox("Show raw data"):
     st.write(df)
